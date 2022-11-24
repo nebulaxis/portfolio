@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: bisque;
+    
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding:  33px 0;
+}
+.sidebarGo{
+    transform: translate(-443px , 0px);
+    position: absolute;
+   }
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    
+    width: 90vw;
+}
+.container{
+    display: flex;
+    height: auto;
+}
+
+.infocontainer{
+    
+    height: 42vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.devinfo button a{
+    text-decoration: none;
+}
+
+.hello{
+    font-size: 70px;
+}
+.name{
+    font-size: 60px;
+    font-weight: bold;
+}
+.about{
+    font-size: 40px;
+}
+.buttons{
+    margin-top: 30px;
+}
+
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 20px;
+    background-color: bisque;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;   
+}
+
+.buttons button:hover{
+    color: white;
+    background-color: gray;
+}
+
+.moreabout{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.devpic img{
+    width: 381px;
+    height: 42vh;
+
+}
+.Contactform{
+ 
+padding-top: 100px;
+padding: 0 34px;
+}
+
+.Contactform h1{
+    text-align: center;
+    padding: 30px 0;
+}
+.Contactform form div {
+  padding: 10px 0;
+  display: flex; 
+  flex-direction: column;   
+}
+
+.Contactform form div input{
+   width: 23vw;
+   border-radius: 5px;
+   margin: 6px 0;
+   padding: 3px;
+}
+.Contactform form div button{
+    width: 11vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.blogitem{
+    margin: 20px;
+}
+.Blogcontainer h1{
+margin: 23px;
+font-weight:bolder;
+}
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+}
+
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 0px;
+    left: 10px;
+}
+
+.cross{
+    margin-bottom: 5px;
+    margin-left: 150px;
+}
+@media (max-width:1615px) {
+    
+   
+   }
